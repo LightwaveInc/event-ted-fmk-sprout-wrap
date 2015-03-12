@@ -1,8 +1,21 @@
 SITE
   remote: https://supermarket.getchef.com/api/v1
   specs:
+    build-essential (2.1.3)
     dmg (2.2.2)
-    homebrew (1.10.0)
+    homebrew (1.12.0)
+      build-essential (>= 2.1.2)
+
+GIT
+  remote: https://github.com/minifast/sprout-app
+  ref: master
+  sha: c136d53d9a7312889165a2d594b04f6712c616b8
+  specs:
+    sprout-app (0.1.0)
+      dmg (>= 0.0.0)
+      homebrew (>= 1.6.6)
+      sprout-base (>= 0.0.0)
+      sprout-osx-settings (>= 0.0.0)
 
 GIT
   remote: https://github.com/pivotal-sprout/osx
@@ -58,7 +71,7 @@ GIT
 GIT
   remote: https://github.com/pivotal-sprout/sprout-osx-settings
   ref: master
-  sha: 2470797e8997688b731928cc78f48e51c3562803
+  sha: fa7f68da19bbb9cc45da22020d9043fcfc7ee73e
   specs:
     sprout-osx-settings (0.1.0)
       homebrew (>= 0.0.0)
@@ -120,6 +133,7 @@ GIT
 
 DEPENDENCIES
   osx (>= 0)
+  sprout-app (>= 0)
   sprout-base (>= 0)
   sprout-git (>= 0)
   sprout-homebrew (>= 0)
