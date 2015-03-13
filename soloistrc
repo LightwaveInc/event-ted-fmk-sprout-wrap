@@ -55,6 +55,7 @@ node_attributes:
       magnification: false
     homebrew:
       formulae:
+        - mplayer
         - chromedriver
         - imagemagick
         - node
