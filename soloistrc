@@ -29,11 +29,15 @@ node_attributes:
         - 2.1.5
       default_ruby: 2.1.5
     app:
+      server: nginx
       database:
         database: lwted_production
     git:
-      domain: lightwave.com
+      domain: lightwave.io
       authors:
+        - initials: eh
+          name: Eric Hyunh
+          username: eric
         - initials: dr
           name: Doc Ritezel
           username: doc
