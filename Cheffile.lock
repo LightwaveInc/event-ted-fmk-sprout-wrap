@@ -9,7 +9,7 @@ SITE
 GIT
   remote: https://github.com/minifast/sprout-app
   ref: master
-  sha: 5f98302e158ed5f2eb177fe432862fac00a70b0d
+  sha: d916fa352a485a56e7c2352b908104a33456eb0a
   specs:
     sprout-app (0.1.0)
       dmg (>= 0.0.0)
